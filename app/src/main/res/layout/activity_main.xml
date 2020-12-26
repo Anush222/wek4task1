@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:textSize="20sp"
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:textSize="20sp"
+        android:focusable="false"
+        android:layout_margin="10dp"
+        android:hint="CheckIn Date (dd/mm/yy)"
+        android:id="@+id/etCheckInDate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <EditText
+        android:textSize="20sp"
+        android:focusable="false"
+        android:layout_margin="10dp"
+        android:hint="CheckOut Date (dd/mm/yy)"
+        android:id="@+id/etCheckOutDate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <EditText
+        android:inputType="number"
+        android:hint="No. of Adults"
+        android:id="@+id/etAdults"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:textSize="20sp"
+        android:inputType="number"
+        android:hint="No. of Children"
+        android:id="@+id/etChildren"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:textSize="20sp"
+        android:text="Book Hotel"
+        android:id="@+id/btnBook"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+
+
+</LinearLayout>
